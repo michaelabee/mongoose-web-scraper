@@ -15,18 +15,20 @@
     }
 
     #title-box {
-      margin-left: 75px;
+      margin-left: 50px;
     }
 
     .navbar {
       margin-left: 25px;
-      padding: 1px;
-      border-bottom: solid black 1px;
       font-size: 30px;
+      background-color:black;
+      width:100%;
+      color:white;
+      margin-bottom: 15px;
     }
 
     #articles {
-      margin-left: 25px;
+      margin-left: 20px;
       display: inline-block;
       overflow: auto;
       background-color: white;
@@ -36,14 +38,17 @@
 
     #notes {
       text-align: center;
-      width: 30%;
+      color:black;
+      background-color:white;
+      opacity:.85;
+      margin-right:20px;
     }
 
     textarea,
     input {
       display: block;
-      width: 200px;
-      background-color: #FCF5C7;
+      width: 100%;
+      background-color: white;
     }
 
     input {
@@ -56,10 +61,6 @@
       font-size: 18px;
     }
 
-    p:hover {
-      color: black;
-      background: whitesmoke;
-    }
   </style>
 </head>
 
@@ -67,20 +68,17 @@
   <div class="row">
     <div id="title-box">
       <h1>Food Scraper</h1>
-      <h2><i>Recipes, News & More</i></h2>
+      <h3><i>Recipes, News & More</i></h2>
     </div>
   </div>
   <div class="row">
     <div class="navbar">
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
+          <a class="nav-link active" href="">Scrape New Articles</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="">Favorites</a>
         </li>
       </ul>
     </div>
